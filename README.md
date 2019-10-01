@@ -1,29 +1,24 @@
 # gong-io
 
 ## Project setup
+
+### Vue Client
 ```
+cd client
 npm install
+vue ui
+```
+Go to Tasks -> dev -> Run task
+
+### Node JS server
+```
+cd server
+npm install
+npm start
 ```
 
-### Compiles and hot-reloads for development
+### Python websocket client (Node JS server must be started)
 ```
-npm run serve
+cd python
+python gongWebsocketClient.py
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
