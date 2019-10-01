@@ -10,7 +10,7 @@ vue ui
 ```
 Go to Tasks -> dev -> Run task
 
-### Node JS server
+### Node JS Express server
 ```
 cd server
 npm install
