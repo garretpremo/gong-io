@@ -5,6 +5,7 @@
 ### Vue Client
 ```
 cd client
+
 npm install
 vue ui
 ```
@@ -14,11 +15,14 @@ Go to Tasks -> dev -> Run task
 ```
 cd server
 npm install
+
 npm start
 ```
 
 ### Python websocket client (Node JS server must be started)
 ```
+pip install websockets
+
 cd python
 python gongWebsocketClient.py
 ```
